@@ -3,297 +3,208 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Andes Analytics – Data Science solutions for your business</title>
-  <meta name="description" content="Plataformas digitales con inteligencia artificial para tu negocio. Soluciones de data science, automatización y agentes inteligentes para empresas." />
+  <title>Andes Analytics | Plataformas digitales con inteligencia artificial</title>
+  <meta name="description" content="Andes Analytics crea soluciones de inteligencia artificial y data science para digitalizar procesos y acelerar negocios." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="aa-header">
-    <div class="aa-container aa-nav">
-      <div class="aa-logo">Andes Analytics</div>
-      <button class="aa-nav-toggle" id="navToggle" aria-label="Abrir menú">
-        ☰
+  <header class="navbar">
+    <div class="nav-content container">
+      <a class="brand" href="#hero" aria-label="Andes Analytics home">
+        <span class="brand-mark">AA</span>
+        <div class="brand-text">
+          <span class="brand-name">Andes Analytics</span>
+          <span class="brand-tagline">IA aplicada a negocios</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
-      <nav class="aa-nav-links" id="navLinks">
-        <a href="#sobre-nosotros">Sobre nosotros</a>
-        <a href="#que-hacemos">Qué hacemos?</a>
-        <a href="#soluciones">Soluciones</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#mision-vision">Misión y visión</a>
-        <a href="#contacto">Contacto</a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="#about">Sobre nosotros</a>
+        <a href="#what-we-do">Qué hacemos</a>
+        <a href="#solutions">Soluciones</a>
+        <a href="#mission">Misión</a>
+        <a href="#contact">Contacto</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- HERO -->
-    <section class="aa-hero">
-      <div class="aa-container aa-hero-grid">
-        <div class="aa-hero-text">
-          <p class="aa-kicker">Data Science solutions for your business.</p>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Inteligencia artificial & data science</p>
           <h1>Plataformas digitales con inteligencia artificial para tu negocio</h1>
-          <p class="aa-hero-subtitle">
-            Creamos soluciones de data science y agentes inteligentes para digitalizar procesos,
-            automatizar tareas repetitivas y ayudarte a tomar mejores decisiones con datos.
+          <p class="lede">
+            Creamos soluciones de data science y agentes inteligentes para digitalizar procesos, automatizar tareas y ayudarte a tomar mejores decisiones con datos.
           </p>
-          <div class="aa-hero-actions">
-            <a href="#que-hacemos" class="aa-btn aa-btn-primary">Conocé lo que hacemos</a>
-            <a href="#contacto" class="aa-btn aa-btn-outline">Agendemos una reunión</a>
+          <div class="hero-actions">
+            <a class="btn primary" href="#what-we-do">Conocé más</a>
+            <a class="btn ghost" href="#contact">Agendemos una reunión</a>
+          </div>
+          <div class="hero-meta">
+            <span class="pill">Automatización</span>
+            <span class="pill">Agentes inteligentes</span>
+            <span class="pill">Analítica avanzada</span>
           </div>
         </div>
-        <div class="aa-hero-image">
-          <div class="aa-hero-card">
-            <h2>Insight en tiempo real</h2>
-            <p>Dashboards, automatizaciones y agentes conversacionales conectados a tus datos.</p>
-            <ul>
-              <li>Automatización de procesos</li>
-              <li>Analítica y reporting</li>
-              <li>Integración con tus sistemas</li>
-            </ul>
+        <div class="hero-visual">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="panel">
+            <div class="panel-header">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="panel-title">IA en tiempo real</span>
+            </div>
+            <div class="panel-body">
+              <div class="metric">
+                <span class="label">Procesos automatizados</span>
+                <span class="value">+64%</span>
+              </div>
+              <div class="metric">
+                <span class="label">Tiempo de respuesta</span>
+                <span class="value">-48%</span>
+              </div>
+              <div class="metric">
+                <span class="label">Precisión de modelos</span>
+                <span class="value">92%</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- QUÉ HACEMOS -->
-    <section id="que-hacemos" class="aa-section">
-      <div class="aa-container">
-        <h2>Qué hacemos?</h2>
-        <p class="aa-section-lead">
-          Desarrollamos soluciones a medida con inteligencia artificial para optimizar tus procesos,
-          mejorar la experiencia de tus clientes y hacer crecer tu negocio de forma sostenible.
-        </p>
-
-        <div class="aa-grid-3">
-          <article class="aa-card">
-            <h3>Agentes inteligentes</h3>
-            <p>
-              Diseñamos agentes conversacionales que responden consultas, realizan tareas,
-              toman datos de tus usuarios y se conectan a tus sistemas internos (CRM, ERP, e-commerce).
-            </p>
-          </article>
-
-          <article class="aa-card">
-            <h3>Automatización de procesos</h3>
-            <p>
-              Digitalizamos flujos manuales, reducimos tiempos operativos y minimizamos errores
-              integrando IA con las herramientas que ya usás en tu empresa.
-            </p>
-          </article>
-
-          <article class="aa-card">
-            <h3>Analítica & Data Science</h3>
-            <p>
-              Modelos predictivos, reporting automatizado y tableros accionables para que
-              puedas decidir con datos y no sólo con intuición.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- SOLUCIONES -->
-    <section id="soluciones" class="aa-section aa-section-alt">
-      <div class="aa-container">
-        <h2>Soluciones</h2>
-        <p class="aa-section-lead">
-          Desarrollamos soluciones inteligentes que digitalizan procesos, aumentan la eficiencia
-          y acompañan el crecimiento de tu negocio.
-        </p>
-
-        <div class="aa-grid-3">
-          <article class="aa-card aa-card-border">
-            <h3>Atención al cliente 24/7</h3>
-            <p>
-              Agentes que responden preguntas frecuentes, toman pedidos, gestionan reclamos y
-              escalan a tu equipo cuando es necesario.
-            </p>
-          </article>
-
-          <article class="aa-card aa-card-border">
-            <h3>Soporte interno</h3>
-            <p>
-              Asistentes para tu equipo que buscan información, documentan procesos y ayudan
-              en onboarding y capacitación.
-            </p>
-          </article>
-
-          <article class="aa-card aa-card-border">
-            <h3>Automatización comercial</h3>
-            <p>
-              Integraciones con CRM, envío de cotizaciones, seguimiento de leads y recordatorios
-              automáticos en cada etapa del embudo.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- SOBRE NOSOTROS -->
-    <section id="sobre-nosotros" class="aa-section">
-      <div class="aa-container aa-two-columns">
+    <section id="what-we-do" class="section">
+      <div class="container section-header">
         <div>
-          <h2>Sobre nosotros</h2>
-          <p class="aa-section-lead">
-            Somos una empresa de tecnología enfocada en crear soluciones digitales inteligentes.
-            Combinamos diseño, desarrollo e inteligencia artificial para transformar ideas en
-            plataformas funcionales y escalables.
-          </p>
-          <p>
-            Trabajamos de forma cercana con cada cliente para entender sus procesos, sus dolores
-            y sus objetivos de negocio, y a partir de ahí diseñar soluciones que realmente sumen
-            valor en el día a día.
+          <p class="eyebrow">Qué hacemos</p>
+          <h2>Soluciones a medida con inteligencia artificial para optimizar tus procesos</h2>
+          <p class="section-lede">Mejorá la experiencia de tus usuarios, automatizá tareas y escalá tu negocio con tecnología diseñada para tus objetivos.</p>
+        </div>
+      </div>
+      <div class="container cards three-up">
+        <article class="card feature">
+          <div class="icon-circle">🤖</div>
+          <h3>Agentes inteligentes</h3>
+          <p>Asistentes conversacionales que entienden tu negocio y resuelven consultas en tiempo real.</p>
+        </article>
+        <article class="card feature">
+          <div class="icon-circle">⚡</div>
+          <h3>Automatización de procesos</h3>
+          <p>Workflows orquestados de principio a fin para liberar tiempo y reducir costos operativos.</p>
+        </article>
+        <article class="card feature">
+          <div class="icon-circle">📊</div>
+          <h3>Analítica & Data Science</h3>
+          <p>Modelos predictivos y tableros ejecutivos que transforman datos en decisiones accionables.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="solutions" class="section alt">
+      <div class="container section-header">
+        <div>
+          <p class="eyebrow">Soluciones</p>
+          <h2>Desarrollamos soluciones inteligentes que digitalizan procesos y acompañan tu crecimiento</h2>
+          <p class="section-lede">Diseñamos experiencias completas: desde la estrategia hasta el despliegue y la optimización continua.</p>
+        </div>
+      </div>
+      <div class="container cards grid">
+        <article class="card solution">
+          <div class="badge">IA 24/7</div>
+          <h3>Atención al cliente 24/7</h3>
+          <p>Agentes conversacionales con contexto de negocio, integrados a tus canales para resolver sin fricción.</p>
+        </article>
+        <article class="card solution">
+          <div class="badge">Ops</div>
+          <h3>Soporte interno</h3>
+          <p>Automatización de tickets, knowledge base inteligente y routing automático para equipos ágiles.</p>
+        </article>
+        <article class="card solution">
+          <div class="badge">Revenue</div>
+          <h3>Automatización comercial</h3>
+          <p>Lead scoring, nurtures personalizados y seguimiento inteligente para acelerar el pipeline.</p>
+        </article>
+        <article class="card solution">
+          <div class="badge">Data</div>
+          <h3>Analítica ejecutiva</h3>
+          <p>Dashboards en tiempo real y modelos predictivos que anticipan demanda, riesgos y oportunidades.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">Sobre nosotros</p>
+          <h2>Somos tecnología, diseño e inteligencia artificial trabajando juntos</h2>
+          <p class="section-lede">
+            Somos una empresa de tecnología enfocada en crear soluciones digitales inteligentes. Combinamos diseño, desarrollo e inteligencia artificial para transformar ideas en plataformas funcionales y escalables.
           </p>
         </div>
-        <div class="aa-side-card">
+        <div class="process">
           <h3>Cómo trabajamos</h3>
           <ul>
-            <li>Descubrimiento y diagnóstico</li>
-            <li>Prototipo funcional y prueba</li>
-            <li>Implementación por etapas</li>
-            <li>Acompañamiento y mejora continua</li>
+            <li><span>01</span><div><strong>Diagnóstico</strong><p>Entendemos el negocio y las oportunidades de automatización.</p></div></li>
+            <li><span>02</span><div><strong>Prototipo</strong><p>Validamos rápido con usuarios y datos reales.</p></div></li>
+            <li><span>03</span><div><strong>Implementación</strong><p>Construimos soluciones robustas listas para producción.</p></div></li>
+            <li><span>04</span><div><strong>Mejora continua</strong><p>Iteramos con métricas claras y evolución permanente.</p></div></li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- PROYECTOS -->
-    <section id="proyectos" class="aa-section aa-section-alt">
-      <div class="aa-container">
-        <h2>Proyectos</h2>
-        <p class="aa-section-lead">
-          Acompañamos a empresas de distintos tamaños y rubros en su camino para integrar IA en sus operaciones.
-        </p>
-
-        <div class="aa-grid-3">
-          <article class="aa-card">
-            <h3>Retail & ecommerce</h3>
-            <p>
-              Motor de recomendaciones y agente de ventas que guía a los usuarios desde la
-              búsqueda hasta la compra final.
-            </p>
-          </article>
-
-          <article class="aa-card">
-            <h3>Servicios profesionales</h3>
-            <p>
-              Automatización de toma de turnos, recordatorios y respuestas a consultas frecuentes
-              de clientes.
-            </p>
-          </article>
-
-          <article class="aa-card">
-            <h3>Operaciones & logística</h3>
-            <p>
-              Paneles en tiempo real para monitorear stock, envíos y tiempos de respuesta,
-              integrados a sistemas existentes.
-            </p>
-          </article>
+    <section id="mission" class="section alt">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">Nuestra misión</p>
+          <h2>Soluciones digitales con IA para trabajar mejor y crecer más rápido</h2>
+          <p class="section-lede">Nuestra misión es desarrollar soluciones digitales con inteligencia artificial que ayuden a las empresas a trabajar mejor, crecer más rápido y conectar con sus usuarios de forma más inteligente.</p>
+        </div>
+        <div class="vision">
+          <h3>Nuestra visión</h3>
+          <p>Impulsar la adopción de IA en Latinoamérica, creando plataformas confiables que eleven la competitividad y generen impacto real en los negocios.</p>
         </div>
       </div>
     </section>
 
-    <!-- MISIÓN Y VISIÓN -->
-    <section id="mision-vision" class="aa-section">
-      <div class="aa-container aa-two-columns">
+    <section id="contact" class="section cta">
+      <div class="container cta-box">
         <div>
-          <h2>Nuestra misión</h2>
-          <p class="aa-section-lead">
-            Desarrollar soluciones digitales con inteligencia artificial que ayuden a las empresas
-            a trabajar mejor, crecer más rápido y conectar con sus usuarios de forma más inteligente.
-          </p>
+          <p class="eyebrow">Contacto</p>
+          <h2>Hablemos sobre tu próximo proyecto con IA</h2>
+          <p class="section-lede">Agendemos una reunión para explorar cómo la inteligencia artificial y la analítica pueden impulsar tus resultados.</p>
         </div>
-        <div>
-          <h2>Nuestra visión</h2>
-          <p>
-            Que la inteligencia artificial sea una herramienta cotidiana y accesible,
-            que permita a organizaciones de Latinoamérica competir al más alto nivel,
-            sin complejidad técnica innecesaria.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- TESTIMONIOS -->
-    <section class="aa-section aa-section-alt">
-      <div class="aa-container">
-        <h2>Lo que dicen nuestros clientes</h2>
-        <div class="aa-grid-3">
-          <article class="aa-card aa-testimonial">
-            <h6>LIZ S.</h6>
-            <p class="aa-stars">★★★★★</p>
-            <p>
-              “Logramos automatizar tareas que nos consumían horas por día. Hoy el equipo
-              puede enfocarse en lo estratégico.”
-            </p>
-          </article>
-          <article class="aa-card aa-testimonial">
-            <h6>MIKE A.</h6>
-            <p class="aa-stars">★★★★☆</p>
-            <p>
-              “Los tableros y reportes nos dieron visibilidad del negocio en tiempo real.
-              Tomar decisiones es mucho más simple.”
-            </p>
-          </article>
-          <article class="aa-card aa-testimonial">
-            <h6>KAREN P.</h6>
-            <p class="aa-stars">★★★★★</p>
-            <p>
-              “La implementación fue rápida y con acompañamiento cercano. El impacto se notó
-              en pocas semanas.”
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACTO -->
-    <section id="contacto" class="aa-section">
-      <div class="aa-container aa-two-columns">
-        <div>
-          <h2>Contacto</h2>
-          <p class="aa-section-lead">
-            Contanos sobre tu negocio y vemos juntos cómo podemos ayudarte a integrar
-            inteligencia artificial en tu día a día.
-          </p>
-          <ul class="aa-contact-list">
-            <li>📍 Operación remota para Latinoamérica</li>
-            <li>📧 Tu email de contacto acá</li>
-            <li>🔗 LinkedIn u otras redes que quieras destacar</li>
-          </ul>
-        </div>
-        <div>
-          <form class="aa-form">
-            <label>
-              Nombre
-              <input type="text" name="name" placeholder="Tu nombre" required />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" placeholder="tu@email.com" required />
-            </label>
-            <label>
-              Mensaje
-              <textarea name="message" rows="4" placeholder="Contanos qué necesitás" required></textarea>
-            </label>
-            <!-- En producción podés conectar esto a Formspree, Getform, backend propio, etc. -->
-            <button type="submit" class="aa-btn aa-btn-primary">
-              Enviar mensaje
-            </button>
-          </form>
+        <div class="cta-actions">
+          <a class="btn primary" href="mailto:hola@andesanalytics.com">Escribinos</a>
+          <a class="btn ghost" href="#hero">Volver arriba</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="aa-footer">
-    <div class="aa-container aa-footer-inner">
+  <footer class="footer">
+    <div class="container footer-grid">
       <div>
-        <strong>Andes Analytics</strong><br />
-        Data Science solutions for your business.
+        <div class="brand compact">
+          <span class="brand-mark">AA</span>
+          <div class="brand-text">
+            <span class="brand-name">Andes Analytics</span>
+            <span class="brand-tagline">IA & data science para negocios</span>
+          </div>
+        </div>
+        <p class="footer-copy">Plataformas digitales con inteligencia artificial para tu negocio.</p>
       </div>
-      <div class="aa-footer-links">
-        <a href="#top">Volver arriba</a>
+      <div class="footer-links">
+        <a href="#about">Sobre nosotros</a>
+        <a href="#what-we-do">Qué hacemos</a>
+        <a href="#solutions">Soluciones</a>
+        <a href="#mission">Misión</a>
+        <a href="#contact">Contacto</a>
       </div>
     </div>
   </footer>
@@ -301,5 +212,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
-
